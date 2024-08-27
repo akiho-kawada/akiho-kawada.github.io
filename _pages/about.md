@@ -35,8 +35,12 @@ I aim to pursue a Ph.D. in electrical engineering / computer sciences at univers
 
 
 ## Publications
-comming soon...
+
+- __A 250.3mW Versatile Sound Feature Extractor Using 1024-Point FFT 64-ch LogMel Filter in 40nm CMOS__ <br>
+  <u>Akiho Kawada</u>, Kenji Kobayashi, Jaewon Shin, Rei Sumikawa, Mototsugu Hamada, Atsutake Kosuge <br>
+  *Accepted for presentation at IEEE Asia Pacific Conference On Circuits and Systems (APCCAS) 2024*
 <br>
 <br>
+
 ## Blog
 [my blog in Japanese](https://takeshiho0531.hatenablog.com/)
