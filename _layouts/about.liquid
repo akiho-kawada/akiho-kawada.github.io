@@ -56,16 +56,32 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Project -->
+    {% if page.project %}
+      {% include about_projects.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <div style="margin-top: 40px;"></div>
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Blog -->
+    {% if page.blog %}
+      <div style="margin-top: 40px;"></div>
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">blog</a>
+      </h2>
+      {% include blog.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
+      <div style="margin-top: 40px;"></div>
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 

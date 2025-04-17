@@ -9,7 +9,9 @@ related_publications: false
 ---
 
 #### A 250.3mW Versatile Sound Feature Extractor Using 1024-Point FFT 64-ch LogMel Filter in 40nm CMOS
-###### [Akiho Kawada](https://akiho-kawada.github.io/), [Kenji Kobayashi](https://www.kenjikoba.com/), Jaewon Shin, [Rei Sumikawa](https://jp.linkedin.com/in/rei-sumikawa-2b083625b), [Mototsugu Hamada](https://ieeexplore.ieee.org/author/37088514166), [Atsutake Kosuge](https://sites.google.com/view/atsutakekosuge-eng/home)
+###### [Akiho Kawada\*](https://akiho-kawada.github.io/), [Kenji Kobayashi\*](https://www.kenjikoba.com/), Jaewon Shin, [Rei Sumikawa](https://jp.linkedin.com/in/rei-sumikawa-2b083625b), [Mototsugu Hamada](https://ieeexplore.ieee.org/author/37088514166), [Atsutake Kosuge](https://sites.google.com/view/atsutakekosuge-eng/home)
+
+\* Equal contribution
 
 <br>
 
@@ -39,10 +41,27 @@ Designed and implemented in a 40nm CMOS process, the proposed extractor demonstr
 <br>
 
 ##### _Authors' Preprint_
-[pdf](https://drive.google.com/file/d/1nyJjVpdPvio8WRDi3DD_--86FPmZVhed/view?usp=drive_link)
+[pdf link](https://drive.google.com/file/d/1nyJjVpdPvio8WRDi3DD_--86FPmZVhed/view?usp=drive_link)
+<iframe
+  src="/assets/pdf/apccas_preprint_9068.pdf"
+  width="100%"
+  height="1000px"
+  style="border: none;"
+  loading="lazy"
+>
+  Your browser does not support iframes.
+</iframe>
 
 <br>
 
 ##### _Presentation PDF_
-[presentation](https://drive.google.com/file/d/1Qc6F8eWOVGl_zb4NhoU9x78hLvn5m4xv/view?usp=sharing)
-
+[presentation link](https://drive.google.com/file/d/1Qc6F8eWOVGl_zb4NhoU9x78hLvn5m4xv/view?usp=sharing)
+<iframe
+  src="/assets/pdf/apccas_presentation_A2L-A_9068_Akiho_Kawada.pdf"
+  width="100%"
+  height="1000px"
+  style="border: none;"
+  loading="lazy"
+>
+  Your browser does not support iframes.
+</iframe>
