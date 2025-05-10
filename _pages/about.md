@@ -27,7 +27,7 @@ I'm an undergrad (final year) at [Systems Innovation, Faculty of Engineering, th
 <!-- Additionally, I am currently a visiting student researcher in [Computer Architecture Lab](https://www.arch.cs.ucsb.edu/) at [the University of California, Santa Barbara](https://www.ucsb.edu/), supervised by [Prof. Jonathan Balkind](https://jbalkind.github.io/). -->
 <!-- I am also spending some time at [Kosuge Lab](https://klab.t.u-tokyo.ac.jp/) at the University of Tokyo as a research intern, under the supervision of [Prof. Atsutake Kosuge](https://sites.google.com/view/atsutakekosuge/). -->
 
-My primary research interests are centered around **computer architecture** and **software-hardware co-design**.
+My primary research interest lies in **computer architecture**, particularly in **software-hardware co-design** and **systems for machine learning**.
 
 <u>I aim to pursue a Ph.D. in electrical engineering / computer sciences at universities in the US or Europe after earning my bachelor's degree.</u>
 <br>
