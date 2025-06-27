@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: assets/pdf/akiho_kawada_cv.pdf
+permalink: assets/pdf/cv_akiho_kawada.pdf
 title: cv
 nav: true
 nav_order: 5
