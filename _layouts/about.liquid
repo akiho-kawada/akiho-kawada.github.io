@@ -57,15 +57,15 @@ layout: default
     {% endif %}
 
     <!-- Project -->
-    {% if page.project %}
+    <!-- {% if page.project %}
       {% include about_projects.liquid %}
-    {% endif %}
+    {% endif %} -->
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <div style="margin-top: 40px;"></div>
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
