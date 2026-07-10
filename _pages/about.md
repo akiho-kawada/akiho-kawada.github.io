@@ -7,7 +7,7 @@ subtitle: Incoming Ph.D. Student @ <a href='https://ece.utexas.edu/'>University 
 
 profile:
   align: right
-  image: prof_pic_oct2025.jpg
+  image: prof_pic_july2026.jpeg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 ---
 <br>
 I'm an incoming Ph.D. student in ECE at The University of Texas at Austin. 
-I will be working with Professor <a href='https://sites.utexas.edu/neeraja/'>Neeraja Yadwadkar</a>.
+I will be working with <a href='https://sites.utexas.edu/neeraja/'>Prof. Neeraja Yadwadkar</a>. Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan.
 
 My research interests lie in computer architecture, with a particular focus on software–hardware co-design for machine learning systems and heterogeneous computing.
 

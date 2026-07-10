@@ -72,8 +72,12 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  // --global-theme-color: #{$cyan-color};
+  // --global-hover-color: #{$cyan-color};
+  // --global-theme-color: #f472b6;
+  // --global-hover-color: #f9a8d4;
+  --global-theme-color: #ec4899;
+  --global-hover-color: #f472b6;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
