@@ -2,12 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming Ph.D. Student @ <a href='https://ece.utexas.edu/'>University of Texas at Austin</a>
+subtitle: Ph.D. Student @ <a href='https://ece.utexas.edu/'>University of Texas at Austin</a>
 # Visiting Student @ <a href='https://www.ucsb.edu/'>University of California, Santa Barbara</a>
 
 profile:
   align: right
-  image: prof_pic_july2026.jpeg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -21,11 +21,10 @@ project: false
 social: true # includes social icons at the bottom of the page
 ---
 <br>
-I'm an incoming Ph.D. student in ECE at The University of Texas at Austin. 
-I will be working with <a href='https://sites.utexas.edu/neeraja/'>Prof. Neeraja Yadwadkar</a>. Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan.
+I'm a first-year Ph.D. student in ECE at The University of Texas at Austin advised by <a href='https://sites.utexas.edu/neeraja/'>Prof. Neeraja Yadwadkar</a>. </br>
+Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan.
 
-My research interests lie in computer architecture, with a particular focus on software–hardware co-design for machine learning systems and heterogeneous computing.
-
+My research interests lie broadly across computer systems.
 <br>
 <br>
 <br>
