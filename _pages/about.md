@@ -21,7 +21,7 @@ project: false
 social: true # includes social icons at the bottom of the page
 ---
 <br>
-I'm a first-year Ph.D. student in ECE at The University of Texas at Austin advised by <a href='https://sites.utexas.edu/neeraja/'>Prof. Neeraja Yadwadkar</a>. </br>
+I'm a first-year Ph.D. student in ECE at The University of Texas at Austin advised by <a href='https://sites.utexas.edu/neeraja/'>Prof. Neeraja Yadwadkar</a>. <br>
 Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan.
 
 My research interests lie broadly across computer systems.
