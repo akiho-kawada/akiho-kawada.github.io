@@ -4,6 +4,24 @@
 
 // Typography
 
+html {
+  // Crimson Pro has a small x-height, so bump the base size
+  font-size: 18px;
+}
+
+body {
+  font-family: "Crimson Pro", Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", Garamond, Georgia, serif;
+}
+
 p,
 h1,
 h2,
@@ -207,13 +225,87 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 22%;
 
     .address {
       p {
         display: block;
       }
     }
+  }
+}
+
+// Timeline (shared by news and publications)
+
+// vertical line running through the markers; apply to the list
+@mixin timeline-line($top) {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: $top;
+    bottom: 0;
+    left: 4px;
+    width: 1px;
+    background-color: var(--global-divider-color);
+  }
+}
+
+// hollow circle marker that lights up on hover; apply to each item
+@mixin timeline-marker($top) {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: $top;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border: 1px solid var(--global-text-color-light);
+    border-radius: 50%;
+    background-color: var(--global-bg-color);
+    transition:
+      border-color 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+
+  &:hover::before {
+    border: 2px solid var(--global-theme-color);
+    box-shadow: 0 0 6px var(--global-theme-color);
+  }
+}
+
+// News timeline
+
+.news-scroll {
+  overflow-y: auto;
+}
+
+.news-timeline {
+  @include timeline-line(0.7rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    @include timeline-marker(0.7rem);
+    display: flex;
+    align-items: baseline;
+    padding: 0.2rem 0 0.2rem 1.5rem;
+  }
+
+  .news-date {
+    flex: 0 0 6rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+
+  .news-content {
+    flex: 1;
+    min-width: 0;
   }
 }
 
@@ -298,9 +390,11 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 
     a {
+      margin-right: 0.5rem;
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -373,9 +467,11 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.75rem;
 
     a {
+      margin: 0 0.3rem;
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -674,14 +770,51 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
+    @include timeline-line(0.5rem);
     list-style: none;
     padding: 0;
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      @include timeline-marker(0.5rem);
+      padding-left: 1.5rem;
+      padding-bottom: 1.5rem;
 
       .preview {
+      }
+
+      .pub-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.15rem;
+      }
+
+      .pub-year {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
+      }
+
+      .pub-venue,
+      .pub-award {
+        padding: 0.05rem 0.65rem;
+        border: 1px solid var(--global-theme-color);
+        border-radius: 999px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .pub-venue {
+        color: $white-color;
+        background-color: var(--global-theme-color);
+      }
+
+      .pub-award {
+        color: $orange-color;
+        border-color: $orange-color;
       }
 
       .abbr {
@@ -709,9 +842,20 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        transition: color 0.15s ease;
+      }
+
+      &:hover .title {
+        color: var(--global-theme-color);
+      }
+
+      .periodical {
+        font-size: 0.9rem;
       }
 
       .author {
+        color: var(--global-text-color-light);
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -722,8 +866,9 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          color: var(--global-theme-color);
           font-style: normal;
+          font-weight: bold;
         }
 
         > span.more-authors {
@@ -740,17 +885,23 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+          color: var(--global-text-color-light);
+          background: none;
+          border: none;
+          padding: 0;
+          margin: 0;
+          font-size: 0.75rem;
+          letter-spacing: 0.08em;
 
           &:hover {
             color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+          }
+
+          // dot separator between links
+          & + a.btn::before {
+            content: "\00b7";
+            margin: 0 0.6rem;
+            color: var(--global-text-color-light);
           }
         }
         a.award.btn {

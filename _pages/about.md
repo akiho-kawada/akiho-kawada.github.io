@@ -18,13 +18,14 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 blog: false
 project: false
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 <br>
 I'm a first-year Ph.D. student in ECE at The University of Texas at Austin advised by <a href='https://sites.utexas.edu/neeraja/'>Prof. Neeraja Yadwadkar</a>. <br>
-Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan.
+Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan. <br>
+During my undergraduate years, I was fortunate to work with <a href='https://klab.t.u-tokyo.ac.jp/en/'>Prof. Atsutake Kosuge</a>, <a href='https://sites.google.com/view/yusuke-iwasawa/'>Prof. Yusuke Iwasawa</a>, and <a href='https://ymatsuo.com/en/'>Prof. Yutaka Matsuo</a> at UTokyo, <a href='https://jbalkind.github.io/'>Prof. Jonathan Balkind</a> at UCSB, and <a href='https://ugupta.com/'>Prof. Udit Gupta</a> at Cornell Tech.
 
-My research interests lie broadly across computer systems.
+My research interests lie in agentic AI systems.
 <br>
 <br>
 <br>
