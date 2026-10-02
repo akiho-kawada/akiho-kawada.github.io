@@ -284,16 +284,16 @@ ul.task-list input[type="checkbox"] {
 }
 
 .news-timeline {
-  @include timeline-line(0.7rem);
   list-style: none;
   margin: 0;
   padding: 0;
+  @include timeline-line(0.7rem);
 
   li {
-    @include timeline-marker(0.7rem);
     display: flex;
     align-items: baseline;
     padding: 0.2rem 0 0.2rem 1.5rem;
+    @include timeline-marker(0.7rem);
   }
 
   .news-date {
@@ -770,15 +770,15 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    @include timeline-line(0.5rem);
     list-style: none;
     padding: 0;
     margin-top: 0;
+    @include timeline-line(0.5rem);
 
     li {
-      @include timeline-marker(0.5rem);
       padding-left: 1.5rem;
       padding-bottom: 1.5rem;
+      @include timeline-marker(0.5rem);
 
       .preview {
       }
