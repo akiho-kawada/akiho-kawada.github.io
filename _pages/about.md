@@ -25,7 +25,7 @@ I'm a first-year Ph.D. student in ECE at The University of Texas at Austin advis
 Previously, I earned my B.Eng. in Systems Innovation from The University of Tokyo, Japan. <br>
 During my undergraduate years, I was fortunate to work with <a href='https://klab.t.u-tokyo.ac.jp/en/'>Prof. Atsutake Kosuge</a>, <a href='https://sites.google.com/view/yusuke-iwasawa/'>Prof. Yusuke Iwasawa</a>, and <a href='https://ymatsuo.com/en/'>Prof. Yutaka Matsuo</a> at UTokyo, <a href='https://jbalkind.github.io/'>Prof. Jonathan Balkind</a> at UCSB, and <a href='https://ugupta.com/'>Prof. Udit Gupta</a> at Cornell Tech.
 
-My research interests lie in agentic AI systems.
+My research interests lie in systems for LLMs and LLM agents, especially in making their execution more energy-efficient and sustainable.
 <br>
 <br>
 <br>
